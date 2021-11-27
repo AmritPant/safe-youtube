@@ -1,0 +1,55 @@
+.form {
+  margin-top: 5rem;
+}
+
+.form__input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid aqua;
+  color: white;
+  height: auto;
+  width: auto;
+  font-size: 1.8rem;
+}
+
+.form__input:focus {
+  outline: none;
+  border-bottom: 2px solid yellow;
+}
+
+.form__para {
+  font-size: 1.9rem;
+  color: orangered;
+}
+
+@media (max-width: 450px) {
+  .form__para {
+    font-size: 1.4rem;
+  }
+}
+
+.btn-box {
+  margin-top: 4rem;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: aqua;
+  margin-top: 2rem;
+  border: 1px solid aqua;
+  padding: 1rem;
+  border-radius: 100px;
+  transition: all 0.3s;
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: aqua;
+  color: #333;
+  cursor: pointer;
+}

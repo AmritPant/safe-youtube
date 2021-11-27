@@ -1,0 +1,16 @@
+body {
+  background-color: #282c34;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 0 5rem;
+  }
+}

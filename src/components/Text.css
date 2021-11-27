@@ -1,0 +1,10 @@
+.text__para {
+  font-size: 1.9rem;
+  color: yellow;
+}
+
+@media (max-width: 450px) {
+  .text__para {
+    font-size: 1.4rem;
+  }
+}
